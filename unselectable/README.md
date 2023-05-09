@@ -12,9 +12,10 @@ Note that Table 2 compares the unselectable before and after LayerNorm which is 
 Figures 1c, 1d will be in `unselectable_rand_exp`.
 Figure 4: The training and test loss can be found on your console at [wandb.ai](wandb.ai).
 
-The results of Table 3 will be in `unselectable_without_scale`
-The results of Table 4 will be in `unselectable_no_ln_bert`
-ß
+The results of Table 3 will be in `unselectable_without_scale`.
+
+The results of Table 4 will be in `unselectable_no_ln_bert`.
+
 ## Results 
 
 The results of running the above scripts are:

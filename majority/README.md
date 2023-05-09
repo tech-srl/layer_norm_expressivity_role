@@ -13,7 +13,7 @@ Create the following files:
 WITH_PROJ_keys_queries.jsonl
 WITHOUT_PROJ_keys_queries.jsonl
 ```
-such that each line contains the summary of a run (you can find the summary in wandb UI or in `wandb/<run_name>/files/wand-summary.json`)
+so that each line contains the summary of a run (you can find the summary in wandb UI or in `wandb/<run_name>/files/wand-summary.json`)
 Then run the following script:
 ```
 python visualize_3d_keys_queries.py
@@ -28,7 +28,7 @@ bash run_without_projection.bash
 ```
 Watch the results on your console at [wandb.ai](wandb.ai).
 
-Note that the scripts distribute the different runs using [slurm workload system](https://slurm.schedmd.com/documentation.html).
+Note that the scripts distribute the various runs using [slurm workload system](https://slurm.schedmd.com/documentation.html).
 
 ## Results
 

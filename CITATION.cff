@@ -1,0 +1,6 @@
+@article{brody2023expressivity,
+  title={On the Expressivity Role of LayerNorm in Transformers' Attention},
+  author={Brody, Shaked and Alon, Uri and Yahav, Eran},
+  journal={arXiv preprint arXiv:2305.02582},
+  year={2023}
+}
