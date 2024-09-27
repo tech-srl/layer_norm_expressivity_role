@@ -290,8 +290,8 @@ def run_experiment(num_samples, seq_len, num_classes, hidden_dim, num_head, epoc
             print("test acc >= 1.0")
             break
 
-    # (1, num_classes, hidden_dim)
-    _, queries, _, keys, Q, K, _ = model(classes)
+    # (1, num_classes,     hidden_dim)
+    _, queries, keys = model(classes)
     if hidden_dim == 3:
         wandb.run.summary['queries'] = queries
         wandb.run.summary['keys'] = keys
